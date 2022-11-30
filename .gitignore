@@ -1,0 +1,30 @@
+/yt
+
+## System ##
+# macOS
+**/.DS_Store
+
+## Editors ##
+# Helix
+.ignore
+
+
+## Languages ##
+# Rust
+**/target
+
+# C
+**/out
+#> Beaver build tool
+**/.beaver
+
+# Zig
+**/zig-cache
+**/zig-out
+
+# Swift
+**/.build
+**/.swiftpm
+
+# Node
+**/node_modules
