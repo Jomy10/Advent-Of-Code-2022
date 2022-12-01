@@ -1,12 +1,12 @@
 # Advent Of Code 2022
 
-My solutions for the Advent of Code problems 2022. This year, I will randomly pick
-another language each day to solve the puzzles. This is a combination of languages
-I know and languages I'd like to learn (Crystal and C3).
+This year for Advent of Code, I will randomly pick another language each day to
+solve the puzzles. This is a combination of languages I know and languages I'd
+like to learn (Crystal and C3).
 
 ## Days
 
-1.
+1. [ShellScript](/day1)
 2.
 3.
 4.
