@@ -13,9 +13,10 @@
 # Rust
 **/target
 
-# C
+# C / Java
 **/out
-#> Beaver build tool
+
+#> Beaver build tool (C)
 **/.beaver
 
 # Zig

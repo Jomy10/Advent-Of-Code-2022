@@ -4,5 +4,6 @@
 out_folder = "../assets"
 name = ARGV[1]
 
-# Convert mp4 to gif
-`ffmpeg -i "#{ARGV[0]}" -pix_fmt rgb24 -r 4 "#{out_folder}/#{name}.gif"`
+# Convert mp4 to gifi
+f=4
+`ffmpeg -i "#{ARGV[0]}" -pix_fmt rgb24 -r #{f} "#{out_folder}/#{name}.gif"`

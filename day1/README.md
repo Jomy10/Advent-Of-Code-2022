@@ -7,6 +7,10 @@ As an early christmas gift to myself, and because the first day will be an easy 
 I will not let a randomize decide the language for the first day. Instead, I'll
 get **ShellScript** done immediately.
 
+```zsh
+echo "Hello world"
+```
+
 ## Solution
 
 We're looping over the the lines of the input file. Reading the file is just
