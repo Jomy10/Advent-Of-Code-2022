@@ -7,8 +7,8 @@ like to learn (Crystal and C3).
 ## Days
 
 1. [ShellScript](/day1)
-2.
-3.
+2. [Java](/day2)
+3. [Rust](/day3)
 4.
 5.
 6.
