@@ -9,7 +9,7 @@ like to learn (Crystal and C3).
 1. [ShellScript](/day1)
 2. [Java](/day2)
 3. [Rust](/day3)
-4.
+4. [C3](/day4)
 5.
 6.
 7.

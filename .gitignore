@@ -29,3 +29,7 @@
 
 # Node
 **/node_modules
+
+# C3
+**/build
+**/*.o
