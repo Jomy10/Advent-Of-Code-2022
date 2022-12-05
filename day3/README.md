@@ -28,4 +28,10 @@ so early. The input parsing is roughly the same as last time, but instead of it
 being a whole class with quite a few lines, it can be condenced to literaly 2
 lines of code. Iterator in Rust are amazing.
 
+```rust
+pub fn main() {
+  printn!("Hello world");
+}
+```
+
 Not much trouble today. It didn't take as long as yesterday ofcourse.
