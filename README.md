@@ -10,7 +10,7 @@ like to learn (Crystal and C3).
 2. [Java](/day2)
 3. [Rust](/day3)
 4. [C3](/day4)
-5.
+5. [Zig](/day5)
 6.
 7.
 8.
