@@ -5,11 +5,11 @@ import (
 	"strings"
 )
 
+// Parse input into a tree stucture of files and directories
 func parseInput(input string) TreeElement {
 	var output TreeElement = TreeElement{
 		name: "/",
-		// contents: []TreeElement{},
-		ty: 0,
+		ty:   0,
 		elem: TreeElementUnion{
 			size:     0,
 			contents: []TreeElement{},

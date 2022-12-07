@@ -12,7 +12,6 @@ func main() {
 	}
 	rootDir := parseInput(string(data))
 
-	// dirSizes := getAllDirSizes(&rootDir)
 	dirs := collectSubDirectories(&rootDir)
 	dirs = append(dirs, &rootDir)
 	dirSizes := []int{}
@@ -52,8 +51,6 @@ func main() {
 }
 
 type TreeElement struct {
-	// ty() uint8
-	// getName() string
 	name string
 	ty   uint8
 	elem TreeElementUnion
@@ -74,30 +71,8 @@ func findElemInDir(dir *TreeElement, name string) *TreeElement {
 	return nil
 }
 
-// func getAllDirSizes(dir *TreeElement) []int {
-// 	dirSizes := []int{}
-// 	totalFileSize := 0
-// 	for _, elem := range dir.elem.contents {
-// 		if elem.ty == 0 {
-// 			// dir
-// 			sizes := getAllDirSizes(&elem)
-// 			dirSizes = append(dirSizes, sizes...)
-// 		} else {
-// 			// file
-// 			totalFileSize += elem.elem.size
-// 		}
-// 	}
-
-// 	for _, dirSize := range dirSizes {
-// 		totalFileSize += dirSize
-// 	}
-
-// 	fmt.Printf("%v\n", dirSizes)
-// 	fmt.Printf("%s - size : %d\n", dir.name, totalFileSize)
-
-// 	return append(dirSizes, totalFileSize)
-// }
-
+// Returns an array containing all directories inside of this directory and all
+// directorries inside of its subdirectories
 func collectSubDirectories(dir *TreeElement) []*TreeElement {
 	dirs := []*TreeElement{}
 	for idx, elem := range dir.elem.contents {
@@ -109,6 +84,7 @@ func collectSubDirectories(dir *TreeElement) []*TreeElement {
 	return dirs
 }
 
+// Calculates the total size of a directory
 func calcDirSize(dir *TreeElement) int {
 	totalSize := 0
 	for _, elem := range dir.elem.contents {
