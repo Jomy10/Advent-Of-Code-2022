@@ -1,0 +1,14 @@
+{
+  "name": "day6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "main": "node src/main.js",
+    "test": "node src/test.js"
+  },
+  "keywords": [],
+  "author": "Jonas Everaert",
+  "license": "MIT"
+}

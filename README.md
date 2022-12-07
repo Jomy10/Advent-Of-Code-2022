@@ -11,7 +11,7 @@ like to learn (Crystal and C3).
 3. [Rust](/day3)
 4. [C3](/day4)
 5. [Zig](/day5)
-6.
+6. [JavaScript](/day6)
 7.
 8.
 9.
