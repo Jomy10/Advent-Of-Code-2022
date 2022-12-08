@@ -13,7 +13,7 @@ like to learn (Crystal and C3).
 5. [Zig](/day5)
 6. [JavaScript](/day6)
 7. [Go](/day7)
-8.
+8. [C](/day8)
 9.
 10.
 11.
