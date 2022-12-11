@@ -18,7 +18,7 @@ running out of languages.
 8. [C](/day8)
 9. [Swift](/day9)
 10. [PHP](/day10)
-11.
+11. [Haskell](/day11/part1) (part1)
 12.
 13.
 14.

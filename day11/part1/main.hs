@@ -111,7 +111,6 @@ parseTest testS ifTrueS ifFalseS = do
   let ifFalseSplit = filter (/="") (split ' ' ifFalseS)
   let ifFalseVal = read (ifFalseSplit !! 5)::Int
   (\x -> if x `rem` testVal == 0 then ifTrueVal else ifFalseVal)
-  -- (\x -> x)
 
 monkeyNumber :: [Char] -> Int
 monkeyNumber s = do
@@ -171,7 +170,7 @@ takeHighest2 a = do
       
 
 main = do
-  handle <- openFile "example.txt" ReadMode
+  handle <- openFile "../example.txt" ReadMode
   contents <- hGetContents handle
   let lines = split '\n' contents
   let monkeys :: [Monkey] = parseMonkeys lines
