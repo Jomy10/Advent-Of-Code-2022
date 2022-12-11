@@ -17,7 +17,7 @@ running out of languages.
 7. [Go](/day7)
 8. [C](/day8)
 9. [Swift](/day9)
-10.
+10. [PHP](/day10)
 11.
 12.
 13.
@@ -45,17 +45,21 @@ I've excluded some language like WASM and brainfuck, because NO.
 - C
 - Zig
 - Rust
-- Swit
+- Swift
 - JavaScript
 - TypeScript
 - Java *:(*
 - ShellScript **(ㆆ _ ㆆ)**
 - Go
+- Ruby
 
 ### Languages I'd like to learn
 
 - C3
 - Crystal
+- Lua
+- Nelua
+- Haskell
 
 ### Languages I've used like once before
 
