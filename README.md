@@ -63,6 +63,10 @@ I've excluded some language like WASM and brainfuck, because NO.
 - Perl
 - Python
 
+### Languages I've got installed on my computer but I don't remember where they came from
+
+- Dart
+
 ## License
 
 MIT
