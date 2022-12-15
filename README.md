@@ -21,7 +21,7 @@ running out of languages.
 11. [Haskell](/day11/part1) (part1)
 12.
 13.
-14.
+14. [TypeScript](/day14)
 15.
 16.
 17.
