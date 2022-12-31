@@ -6,6 +6,8 @@ like to learn (Crystal and C3). As the days progressed, I also added some langua
 categorized as "langauges I've used like one before" to the list, because I was
 running out of languages.
 
+![languages](output.svg)
+
 ## Days
 
 1. [ShellScript](/day1)

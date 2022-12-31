@@ -34,3 +34,6 @@ day11/part2
 # C3
 **/build
 **/*.o
+
+# Crystal
+**/bin
