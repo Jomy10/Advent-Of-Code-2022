@@ -6,7 +6,7 @@ like to learn (Crystal and C3). As the days progressed, I also added some langua
 categorized as "langauges I've used like one before" to the list, because I was
 running out of languages.
 
-![languages](output.svg)
+![languages](assets/languages.png)
 
 ## Days
 
@@ -22,7 +22,7 @@ running out of languages.
 10. [PHP](/day10)
 11. [Haskell](/day11/part1) (part1)
 12.
-13.
+13. [Dart](/day13)
 14. [TypeScript](/day14)
 15.
 16.
