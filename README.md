@@ -50,8 +50,8 @@ I've excluded some language like WASM and brainfuck, because NO.
 - Swift
 - JavaScript
 - TypeScript
-- Java *:(*
-- ShellScript **(ㆆ _ ㆆ)**
+- Java
+- ShellScript
 - Go
 - Ruby
 
