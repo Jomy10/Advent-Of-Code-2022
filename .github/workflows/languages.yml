@@ -12,6 +12,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    - name: install Cairo
+      run: gem install cairo
     - name: generate image
       run: ruby ./scripts/lang_img.rb
     - name: switch git from https to ssh
