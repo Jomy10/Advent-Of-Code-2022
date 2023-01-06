@@ -22,15 +22,9 @@ jobs:
       run: gem install github-linguist
     - name: generate image
       run: ruby ./scripts/lang_img.rb
-    - name: switch git from https to ssh
-      run: git remote set-url origin ${{ secrets.ssh }}
-    - name: check changes
-      run: git status
     - name: stage image
       run: git add ./assets/languages.png
     - name: commit image
       run: git commit -m "auto update languages.png"
-    - name: fetch
-      run: git fetch origin master
     - name: push
       run: git push origin HEAD:master
