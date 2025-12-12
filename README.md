@@ -21,7 +21,7 @@ running out of languages.
 9. [Swift](/day9)
 10. [PHP](/day10)
 11. [Haskell](/day11/part1) (part1)
-12.
+12. [Ruby](/day12)
 13. [Dart](/day13)
 14. [TypeScript](/day14)
 15.
